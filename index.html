@@ -1,0 +1,496 @@
+
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+
+<!-- Basic Page Needs
+================================================== -->
+<meta charset="utf-8">
+<title>回家网</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+<!-- Mobile Specific
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<!-- Java Script
+================================================== -->
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.24.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+<script type="text/javascript" src="js/camera.min.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/selectnav.min.js"></script>
+<!--<script type="text/javascript" src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=AIzaSyB3tShW1hLlV2lYW8_sCVln6TLF2bWvgU8"></script>-->
+<script type="text/javascript" src="js/jquery.googlemaps.1.01.min.js"></script>
+<script type="text/javascript" src="js/theme.js"></script>
+
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body class="home">
+<div id="slider-wrap">
+	<div class="camera_wrap" id="camera-wrap">
+		<div data-src="images/uploads/1280x800/rujia.jpg">
+		
+			<div class="camera_caption moveFromBottom camera_text_center">
+				<div class="caption_slider h2">
+					如家-带给你家的感觉
+				</div>
+			</div>
+			
+		</div>
+		<div data-src="images/uploads/1280x800/hanting.jpg">
+        
+        	<div class="camera_caption moveFromLeft camera_text_center">
+				<div class="caption_slider h2">
+					汉庭酒店--为你的旅行增添一份温暖
+				</div>
+			</div>
+        
+        </div>
+		<div data-src="images/uploads/1280x800/sevendays.jpg">
+        	
+            <div class="camera_caption fadeIn camera_text_center">
+				<div class="caption_slider h2">
+					7天连锁：舒适干净
+				</div>
+			</div>
+        
+        </div>
+		<div data-src="images/uploads/1280x800/temple-kyoto.jpg">
+        
+        	<div class="camera_caption moveFromBottom camera_text_center">
+				<div class="caption_slider h2">
+					布丁~~~~
+				</div>
+			</div>
+        
+        </div>
+		
+		
+	</div><!--camera-wrap -->
+</div>
+
+<div id="wrapper">
+	<div id="container">
+	
+		<!--start header -->
+        <header id="header">
+            <div id="logo">
+                <a href="index.html"><strong>“回家”</strong>网</a>
+            </div>
+            <div id="navigation">
+                <ul id="nav">
+                    <li class="selected"><a href="index.html">首页</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+            </div>
+        </header>
+		<!--end header -->
+		
+		<!--start content -->
+		<section id="content">
+			<div class="two-third">
+				<div id="searchmodule" class="tabs">
+					<ul class="tab-control">
+
+						<li><a href="#hotel-search">酒店搜索</a></li>
+
+					</ul>
+
+					
+					<div id="hotel-search" class="tab-content">
+						<form action="#">
+							<div class="field">
+								<label for="hotel-to">目的地:</label>
+								<input type="text" id="hotel-to" class="input-text" placeholder="Destination" autocomplete="off" />
+							</div>
+							<div  class="field half">
+								<label for="hotel-depart">入住日期:</label>
+								<input type="text" id="hotel-depart" class="input-text input-cal" placeholder="2012-10-01" autocomplete="off" />
+							</div>
+							<div class="field half even">
+								<label for="hotel-return">离店日期:</label>
+								<input type="text" id="hotel-return" class="input-text input-cal" placeholder="2012-10-01" autocomplete="off" />
+							</div>
+                            <br />
+							<div>
+								位置位置位置：
+								<select id="select">
+									<option>成华区</option>
+									<option>青羊区</option>
+									<option>锦华区</option>
+									<option>犀浦区</option>
+								</select>
+                                <input type="radio" name="area" value="成华区" checked="checked" />成华区
+                                <input type="radio" name="area" value="青羊区" />青羊区
+                                <input type="radio" name="area" value="青羊区" />锦华区
+                                <input type="radio" name="area" value="青羊区" />犀浦区
+							</div>
+                            <br />
+                            <div>
+                                星级：
+                                <select id="select1">
+                                    <option>二星</option>
+                                    <option>三星</option>
+                                    <option>四星</option>
+                                    <option>五星</option>
+
+                                </select>
+                                <input type="radio" name="star" value="三星" checked="checked" />二星
+                                <input type="radio" name="star" value="四星" />三星
+                                <input type="radio" name="star" value="四星" />四星
+                                <input type="radio" name="star" value="四星" />五星
+
+                            </div>
+                            <br />
+                            <div>
+                                价格：
+                                <select id="select2">
+                                    <option>150以下</option>
+                                    <option>150-300</option>
+                                    <option>300-400</option>
+                                    <option>400以上</option>
+                                </select>
+                                <input type="radio" name="price" value="成华区" checked="checked" />150以下
+                                <input type="radio" name="price" value="青羊区" />150-300
+                                <input type="radio" name="price" value="青羊区" />300-400
+                                <input type="radio" name="price" value="青羊区" />400以上
+
+                            </div>
+							<button type="submit" class="submit">搜索</button>
+							<br class="clear" />
+						</form>
+					</div>
+
+				</div>
+			</div>
+			<!--searchmodule -->
+			
+			<div class="one-third last">
+				<div id="newsletter" class="module">
+					<div class="module-content">
+						<div class="module-content-wrap">
+							<div class="h3">酒店订阅</div>
+							<p>我们将把您订阅的酒店信息定期发到您下面指定的邮箱！</p>
+							<p>
+								<label for="newsletter-email">填写邮箱 :</label>
+								<input type="text" id="newsletter-email" class="input-text" />
+							</p>
+							<div>
+								<button type="submit">订阅</button>
+							</div>
+							
+							<br class="clear" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--newsletter -->
+			<div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+
+			<!--newsection -->
+			<div class="section-title">
+				<span class="h3">热门推荐</span>
+
+			</div>
+			<div id="sort">
+                <select>
+                    <option>推荐排序</option>
+                    <option>默认</option>
+                    <option>星级</option>
+                    <option>价格</option>
+                    <option>评分</option>
+                    <option>最热门</option>
+                </select>
+                <select>
+                    <option>星级</option>
+                    <option>三星</option>
+                    <option>四星</option>
+                </select>
+                <select>
+                    <option>价格</option>
+                    <option>150以下</option>
+                    <option>150-300</option>
+                </select>
+                <select>
+                    <option>评分</option>
+                    <option>5分</option>
+                    <option>4-5分</option>
+                </select>
+			</div>
+            <br/>
+           <div id="searchresult" style="width:620px;float: left">
+            <div id="hotel1" style="height:80px;border: 1px solid #BFBFBF;background-color: lightgoldenrodyellow">
+                <table>
+                    <tr style="height: 80px">
+                        <td style="width:160px;text-align: center;line-height: 80px">
+                            <img src="images/crown.PNG" style="height: 80px;width: 160px">
+                        </td>
+                        <td style="width:180px;text-align: center">
+                            <p>
+                                <br />
+                                <a href="#">皇冠假日酒店</a><br />
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <br />
+                                位于<a href="#">成都市锦化区</a>
+
+                            </p>
+                        </td>
+                        <td style="width:140px;text-align: center;line-height: 80px">
+                            4.9/5分<br/>
+
+                        </td>
+                        <td style="text-align: center;line-height: 80px">
+                            ￥300起
+                        </td>
+                    </tr>
+                </table>
+
+
+            </div>
+
+            <div id="hotel2" style="height:80px;border: 1px solid #BFBFBF;background-color: lightgoldenrodyellow">
+                <table>
+                    <tr style="height: 80px">
+                        <td style="width:160px;text-align: center;line-height: 80px">
+                            <img src="images/yieast.PNG" style="height: 80px;width: 160px">
+                        </td>
+                        <td style="width:180px;text-align: center">
+                            <p>
+                                <br />
+                                <a href="#">怡东国际</a><br />
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <br/>
+                                位于<a href="#">成都市青羊区</a>
+                            </p>
+                        </td>
+                        <td style="width:140px;text-align: center;line-height: 80px">
+                            4.3/5分<br/>
+
+                        </td>
+                        <td style="text-align: center;line-height: 80px">
+                            ￥300起
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="hotel3" style="height:80px;border: 1px solid #BFBFBF;background-color: lightgoldenrodyellow">
+                <table>
+                    <tr style="height: 80px">
+                        <td style="width:160px;text-align: center;line-height: 80px">
+                            <img src="images/qianxi.PNG" style="height: 80px;width: 160px">
+                        </td>
+                        <td style="width:180px;text-align: center">
+                            <p>
+                                <br/>
+                                <a href="#">千禧国际酒店</a><br/>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <br/>
+                                位于<a href="#">成都市武侯区</a>
+                            </p>
+                        </td>
+                        <td style="width:140px;text-align: center;line-height: 80px">
+                            4.9/5分<br/>
+
+                        </td>
+                        <td style="text-align: center;line-height: 80px">
+                            ￥300起
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="hotel4" style="height:80px;border: 1px solid #BFBFBF;background-color: lightgoldenrodyellow">
+                <table>
+                    <tr style="height: 80px">
+                        <td style="width:160px;text-align: center;line-height: 80px">
+                            <img src="images/boat.PNG" style="height: 80px;width: 160px">
+                        </td>
+                        <td style="width:180px;text-align: center">
+                            <p>
+                                <br/>
+                                <a href="#">诺亚舟酒店</a><br/>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <span class="glyphicon glyphicon-star" style="color: orange"></span>
+                                <br/>
+                                位于<a href="#">成都市锦化区</a>
+                            </p>
+                        </td>
+                        <td style="width:140px;text-align: center;line-height: 80px">
+                            4.9/5分<br/>
+
+                        </td>
+                        <td style="text-align: center;line-height: 80px">
+                            ￥300起
+                        </td>
+                    </tr>
+                </table>
+            </div>
+           </div>
+
+            <div id="search" style="width:250px;float: right;background-color: lightgoldenrodyellow">
+                <h6>酒店直销推荐</h6><br />
+                <table>
+                    <tr style="height: 50px">
+                        <td style="width: 250px">
+                            <table>
+                                <tr style="height: 50px">
+                                    <td>
+                                        <img src="images/aa.PNG" style="width: 80px;height: 50px">
+                                    </td>
+                                    <td style="width: 80px">
+                                        <a href="#">成都歌芭莱法式主题酒店</a>
+                                    </td>
+                                    <td>
+                                        ￥188起
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr style="height: 50px">
+                        <td style="width: 250px">
+                            <table>
+                                <tr style="height: 50px">
+                                    <td>
+                                        <img src="images/bb.PNG" style="width: 80px;height: 50px">
+                                    </td>
+                                    <td style="width: 80px">
+                                        <a href="#">成都金熙简约时尚酒店</a>
+                                    </td>
+                                    <td>
+                                        ￥288起
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr style="height: 50px">
+                        <td style="width: 250px">
+                            <table>
+                                <tr style="height: 50px">
+                                    <td>
+                                        <img src="images/cc.PNG" style="width: 80px;height: 50px">
+                                    </td>
+                                    <td style="width: 80px">
+                                        <a href="#">成都格林司登酒店</a>
+                                    </td>
+                                    <td>
+                                        ￥300起
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr style="height: 50px">
+                        <td style="width: 250px">
+                            <table>
+                                <tr style="height: 50px">
+                                    <td>
+                                        <img src="images/dd.PNG" style="height:50px;width: 80px">
+                                    </td>
+                                    <td style="width: 80px">
+                                        <a href="#">成都七新大酒店</a>
+                                    </td>
+                                    <td>
+                                        ￥188起
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+			
+			<br class="clear" />
+			
+
+			<!--action-box -->
+			
+			
+			<br class="clear" />
+		</section>
+		<!--end content -->
+	
+	</div>
+	<!--container -->
+	
+	<!--start footer -->
+	<footer id="footer">
+		<div class="wrap">
+			<div class="one-fourth">
+				<div class="theme-logo"><strong>回家</strong>网</div>
+				<p>欢迎来到回家网</p>
+				<p>我们致力于为您找到最好的住宿，像是回家一样！</p>
+			</div>
+			
+			<div class="one-fourth">
+				<h3>快速链接</h3>
+				<ul>
+					<li><a href="http://www.baidu.com">百度</a></li>
+					<li><a href="http://www.qunar.com/">去哪儿网</a></li>
+					<li><a href="http://www.ctrip.com/">携程网</a></li>
+
+				</ul>
+			</div>
+			
+			<div class="one-fourth">
+				<h3>关于我们</h3>
+				<ul>
+					<li class="glyph-home">电子科技大学（沙河校区）</li>
+					<li class="glyph-briefcase">Phone : +621 760 4020</li>
+					<li class="glyph-envelope">Email : info@domain.com</li>
+				</ul>
+			</div>
+			
+
+			
+			<br class="clear" />
+		</div>
+		<!--footer wrap -->
+	</footer>
+	<!--end footer -->
+	
+	<section id="subfooter">
+		<div class="wrap">
+			<div class="left">
+				Copyright &copy; 2014.Company name All rights reserved.
+			</div>
+			
+
+			
+			<br class="clear" />
+		</div>
+	</section>
+	<!--subfooter -->
+	
+</div>
+<!--wrapper -->
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+#header,#main,#footer{
+    margin: auto;
+    width: 960px;
+}
+
+#header{
+    height: 150px;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+#menu{
+    height:52px;
+    border: 2px solid #adadad;
+    background-color: deepskyblue;
+}
+
+#room{
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    width: 100px;
+    height: 40px;
+    background-color: lightskyblue;
+}
+#style{
+    height: 40px;
+    line-height: 40px;
+}
+#style a{
+    float: right;
+    margin-right: 30px;
+}
+#submenu{
+    float: left;
+}
+.td{
+    width: 80px;
+    height: 50px;
+    text-align: center;
+}
+
+#pricemana{
+    float: right;
+    margin-right: 10px;
+}
+#addprice{
+    float: right;
+    margin-right: 30px;
+}
+.date{
+    float: left;
+    width: 130px;
+    height: 25px;
+
+}
+.dateimg{
+    width: 20px;
+    height: 23px;
+}
+thead{
+    background-color: deepskyblue;
+}
+.room1{
+    margin: 10px 0px 10px 0px;
+    border: 1px solid lightskyblue;
+}
+.tablestyle{
+    padding: 0px;
+    margin: 0px;
+}
+.menubg{
+    width: 159px;
+    height: 48px;
+    background-color: deepskyblue;
+    text-align: center;
+    line-height: 48px;
+    /*margin: 4px 9px;*/
+    float: left;
+
+}
+.mar{
+    margin-top: 10px;
+}
+.square{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #adadad;
+    margin: 4px;
+}
+#center{
+    width: 620px;
+    margin: auto;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
